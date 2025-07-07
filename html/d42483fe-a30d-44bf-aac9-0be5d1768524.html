@@ -151,7 +151,7 @@
   </div>
 </div>
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<div class="os-raise-ib-cta" data-button-text="Solution" data-fire-event="RFM1" data-schema-version="1.0">
+<div class="os-raise-ib-cta" data-button-text="Solution" data-wait-for-event="RFM1" data-fire-event="Reveal3" data-schema-version="1.0">
   <div class="os-raise-ib-cta-content">
         <h4>Extending Your Thinking</h4>
     <ol class="os-raise-noindent">
@@ -161,8 +161,8 @@
   <div class="os-raise-ib-cta-prompt">
     <p>Write down your answer, then select the <strong>solution</strong> button to compare your work.</p>
   </div>
-</div>
-<div class="os-raise-ib-content" data-wait-for-event="Reveal7" data-schema-version="1.0">
+  </div>
+<div class="os-raise-ib-content" data-wait-for-event="Reveal3" data-schema-version="1.0">
 <p>Compare your answer:</p>
     <p>To find the maximum height, find the vertex. Write the function in vertex form.</p>
     <p>\(H(t)=-16t^2+80t+40\)</p>
@@ -180,5 +180,3 @@
       Therefore, the maximum height is 140 feet. (It reaches this high point after 2.5 seconds.) 
     </p>
 </div>
-<!--End interaction-->
-<br>
